@@ -1,0 +1,39 @@
+{
+  "name": "blackjack",
+  "version": "0.0.1",
+  "description": "Blackjack Deluxe",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blocknroll/blackjack.git"
+  },
+  "author": "Fred Block",
+  "license": "MPLv2",
+  "bugs": {
+    "url": "https://github.com/blocknroll/blackjack/issues"
+  },
+  "homepage": "https://github.com/blocknroll/blackjack",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.7.4",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "css-loader": "^0.15.5",
+    "mocha": "^2.2.5",
+    "mocha-loader": "^0.7.1",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
